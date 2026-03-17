@@ -38,6 +38,3 @@ https://tranquil-sprite-9020e0.netlify.app/#
 
 
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/skyscope-weather.git
