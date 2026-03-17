@@ -23,7 +23,6 @@ A modern, visually stunning weather dashboard that provides real-time weather in
 - 🌍 Visibility  
 - 📡 Live data updates  
 
-
 ## 🛠️ Tech Stack
 
 - HTML5  
