@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkyScope Weather</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<header class="navbar">
+<h1>SkyScope</h1>
+
+<div class="controls">
+<input id="cityInput" placeholder="Search city">
+<button id="searchBtn">Search</button>
+<button id="modeToggle">🌙</button>
+</div>
+</header>
+
+<section class="hero">
+<h1>Live Weather Intelligence</h1>
+<p>Real-time weather insights</p>
+</section>
+
+<main>
+
+<section class="dashboard">
+
+<div class="card">
+<h2 id="cityName">City</h2>
+<img id="icon">
+<h1 id="temp">--°C</h1>
+<p id="condition">Condition</p>
+</div>
+
+<div class="card">
+<h3>Humidity</h3>
+<p id="humidity">--%</p>
+
+<h3>Wind</h3>
+<p id="wind">-- km/h</p>
+</div>
+
+<div class="card">
+<h3>AI Weather Insight</h3>
+<p id="ai">Search a city to analyze weather</p>
+</div>
+
+<div class="card">
+<h3>Hourly</h3>
+<div id="hourly"></div>
+</div>
+
+<div class="card">
+<h3>5 Day Forecast</h3>
+<div id="forecast"></div>
+</div>
+
+</section>
+
+<!-- ✅ WEATHER HIGHLIGHTS -->
+<section class="weather-highlights">
+
+<h2>Weather Highlights</h2>
+
+<div class="highlights-grid">
+
+<div class="highlight-card">
+<p>🌡 Feels Like</p>
+<h3 id="feelsLike">--°C</h3>
+</div>
+
+<div class="highlight-card">
+<p>🌅 Sunrise</p>
+<h3 id="sunrise">--</h3>
+</div>
+
+<div class="highlight-card">
+<p>🌇 Sunset</p>
+<h3 id="sunset">--</h3>
+</div>
+
+<div class="highlight-card">
+<p>🌍 Visibility</p>
+<h3 id="visibility">-- km</h3>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- Loader -->
+<div id="loader" class="loader hidden"></div>
+
+<!-- Footer -->
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-brand">
+<h2>SkyScope</h2>
+<p>Smart weather insights powered by real-time data.</p>
+</div>
+
+<div class="footer-links">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Forecast</a></li>
+<li><a href="#">Weather Map</a></li>
+<li><a href="#">About</a></li>
+</ul>
+</div>
+
+<div class="footer-status">
+<h3>System Status</h3>
+<p>🌤 Weather API: <span class="status-online">Online</span></p>
+<p>⚡ Data Updates: Every Hour</p>
+</div>
+
+<div class="footer-social">
+<h3>Connect</h3>
+<div class="social-icons">
+<a href="#">🌐</a>
+<a href="#">🐦</a>
+<a href="#">💻</a>
+<a href="#">📧</a>
+</div>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 SkyScope Weather Intelligence</p>
+</div>
+
+</footer>
+
+<!-- ✅ Scripts at END (VERY IMPORTANT) -->
+<script src="script.js"></script>
+<script src="particles.js"></script>
+
+</body>
+</html>
