@@ -22,8 +22,6 @@ z-index:-1;
 pointer-events:none;
 }
 
-
-
 *{
 margin:0;
 padding:0;
@@ -60,7 +58,7 @@ background:rgba(255,255,255,0.15);
 font-size:22px;
 margin-top:10px;
 }
-/* Background */
+
 
 body{
 background: radial-gradient(circle at top,#0f172a,#020617);
@@ -69,7 +67,6 @@ min-height:100vh;
 overflow-x:hidden;
 }
 
-/* Navbar */
 .navbar{
 display:flex;
 justify-content:space-between;
@@ -107,7 +104,6 @@ transform:translateY(-2px);
 box-shadow:0 10px 20px rgba(0,0,0,.4);
 }
 
-/* Search */
 
 .search input{
 padding:12px;
@@ -138,8 +134,6 @@ transition:all .3s;
 
 }
 
-/* 3D Button Hover */
-
 .search button:hover{
 
 transform:translateY(-3px);
@@ -148,7 +142,6 @@ box-shadow:0 10px 20px rgba(0,0,0,.5);
 
 }
 
-/* Hero */
 
 .hero{
 
@@ -171,8 +164,6 @@ background-clip: text;
 color: transparent;
 }
 
-/* Dashboard */
-
 .dashboard{
 
 display:grid;
@@ -187,7 +178,6 @@ margin:auto;
 
 }
 
-/* Glass Cards */
 
 .card{
 
@@ -213,7 +203,6 @@ overflow:hidden;
 
 }
 
-/* Card Hover 3D */
 
 .card:hover{
 
@@ -222,8 +211,6 @@ transform:translateY(-6px) scale(1.02);
 box-shadow:0 15px 50px rgba(0,0,0,.6);
 
 }
-
-/* Glow effect */
 
 .card::before{
 
@@ -273,8 +260,6 @@ animation:shine 1s forwards;
 
 }
 
-/* Hourly / Forecast */
-
 #hourly,#forecast{
 
 display:flex;
@@ -289,7 +274,6 @@ padding-bottom:10px;
 
 }
 
-/* Forecast Cards */
 
 .hour,.day{
 
@@ -315,7 +299,6 @@ background:rgba(255,255,255,0.2);
 
 }
 
-/* Temperature animation */
 
 #temp{
 
@@ -337,7 +320,6 @@ animation:pulse 2s infinite;
 
 }
 
-/* Loader */
 
 .loader{
 position:fixed;
@@ -365,7 +347,6 @@ display:none;
 
 }
 
-/* Scrollbar */
 
 ::-webkit-scrollbar{
 
@@ -498,8 +479,6 @@ font-weight:600;
 
 }
 
-/* Social Icons */
-
 .social-icons{
 
 display:flex;
@@ -529,8 +508,6 @@ background:#38bdf8;
 transform:translateY(-3px);
 
 }
-
-/* Footer Bottom */
 
 .footer-bottom{
 

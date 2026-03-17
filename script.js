@@ -78,7 +78,6 @@ wind.textContent = data.wind.speed + " km/h";
 icon.src =
 `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
-/* 🔥 FIX: Check elements exist before updating */
 
 const feelsLikeEl = document.getElementById("feelsLike");
 const visibilityEl = document.getElementById("visibility");
@@ -107,7 +106,6 @@ sunsetTime.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
 }
 
 }
-
 
 async function loadForecast(city){
 
